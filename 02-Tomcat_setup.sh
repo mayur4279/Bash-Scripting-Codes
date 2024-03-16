@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo yum install git -y
+sudo yum install java -y  
 
 sudo git clone https://github.com/mayur4279/tmp /opt/tmp
 

@@ -75,3 +75,8 @@ minikube start
 
 # 9. Checking Minikube cluster info
 kubectl cluster-info
+
+# 10. cleanup   
+rm -rf  go*  
+rm  -rf script.sh  
+rm  -rf cri-dockerd   

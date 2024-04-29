@@ -23,7 +23,15 @@ kubectl version --client
 if ! command -v docker &> /dev/null; then
     sudo apt install docker.io -y
     sudo usermod -aG docker ${USER}
-    echo "Please log out and log in again to refresh the environment."
+    echo " " 
+    echo " "   
+    echo "*********************************************************************************************"
+    echo "Remove the current tab and connect again To your instance "
+    echo "We are perfroming this step manually beacause after adding local user into the docker group, "
+    echo "We need to refresh the enivironment......." 
+    echo "*********************************************************************************************"
+    echo " "  
+    echo " "   
     exit 1
 fi
 

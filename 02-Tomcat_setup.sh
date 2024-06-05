@@ -4,7 +4,7 @@ sudo yum install java -y
 
 sudo git clone https://github.com/mayur4279/tmp /opt/tmp
 
-sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.zip -P /opt
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.zip -P /opt
 sudo unzip /opt/apache-tomcat-9.0.87.zip -d /opt
 
 sudo cp -rvf /opt/tmp/student.war /opt/apache-tomcat-9.0.87/webapps
